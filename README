@@ -1,0 +1,94 @@
+	THE ATN TP4/CLNP NETWORKING SUITE FOR LINUX KERNEL 2.6.xx
+
+This file explains what this project is all about.
+							-- Tadeus Prastowo
+
+WHAT IS ATN?
+
+  ATN stands for aeronautical telecommunication network. It is the kind of
+  communication network that the civil aviations from the countries that signed
+  the Convention on International Civil Aviation, will use to coordinate their
+  air traffic. It is an integral part of the communications, navigation, and
+  surveillance/air traffic management (CNS/ATM) systems.
+
+  The CNS/ATM systems concept identified the use of data communications and of
+  satellite-based systems to overcome the limitation of air traffic management
+  that the early 1980s systems had. It was the result of the work of the Future
+  Air Navigation Systems (FANS) Committee.
+
+  The FANS Committee was established by the International Civil Aviation
+  Organization (ICAO) Council in 1983 because the ICAO became aware in the
+  early 1980s that the air traffic management systems at that time would not be
+  able to cope with the increasing air traffic in future years. Therefore, the
+  FANS Committee was commissioned to study, identify, and assess new concepts
+  and technology in the field of air navigation for the development of air
+  navigation for international civil aviation over a period of 25 years.
+
+WHAT IS TP4/CLNP?
+
+  CLNP stands for connectionless network protocol, whereas TP4 stands for
+  transport protocol type 4, which is a connection-oriented transport protocol.
+  They are networking protocols defined respectively in the network layer and
+  the transport layer of the Open Systems Interconnection (OSI) framework of
+  the International Organization for Standardization (ISO). CLNP is
+  standardized in ISO/IEC 8473-1, whereas COTP (TP4) is standardized in
+  ISO/IEC 8073. As an analogy to the Internet networking protocol suite,
+  CLNP is just like IP, whereas TP4 is just like TCP. They are used as the
+  communication protocols in the digital data communication systems of the ATN
+  because the ATN follows the ISO OSI standards.
+
+WHY TP4/CLNP INSTEAD OF TCP/IP?
+
+  Because the ICAO requires the use of communication protocols based on the ISO
+  OSI standards in the ATN as stated in Annex X to the Convention on
+  International Civil Aviation. Specifically, the second edition of Annex X
+  Volume III Part I, which is titled Digital Data Communication Systems, in
+  July 2007 states:
+
+    3.2.1 The aeronautical telecommunication network (ATN) comprises application
+    entities and communication services which allow ground, air-to-ground and
+    avionics data subnetworks to interoperate by adopting common interface
+    services and protocols based on the International Organization for
+    Standardization (ISO) open systems interconnection (OSI) reference model.
+
+WHAT IS THE OBJECTIVE OF THIS PROJECT?
+
+  To provide the implementation of the ATN TP4/CLNP Networking Suite for the
+  Linux kernel in the spirit of the free software movement so that you are free
+  to:
+  - run the program for any purpose (freedom 0)
+  - study how the program works, and adapt it to your needs (freedom 1)
+  - redistribute copies so you can help your neighbor (freedom 2)
+  - improve the program, and release your improvements to the public, so that
+    the whole community benefits (freedom 3)
+
+WHAT DOCUMENTS ARE RELEVANT TO THE IMPLEMENTATION OF THIS NETWORKING SUITE?
+
+  The following documents are of concern to the implementation of the ATN
+  TP4/CLNP Networking Suite:
+  - the ICAO manual of technical provisions for the ATN (Doc 9705)
+  - the ISO standard documents related to OSI
+
+  Since the ISO standard documents related to OSI have optional parts and local
+  matters that are not specified, Doc 9705 specifies what optional parts are
+  required for use with the ATN as well as specifying the local matters that
+  are of concern to the ATN.
+
+ON WHAT LINUX KERNEL VERSION DOES THIS NETWORKING SUITE RUN?
+
+  This networking suite runs on Linux kernel version 2.6.xx.
+
+WHO INITIATED AND FUNDED THIS PROJECT?
+
+  This project was initated and funded by The Agency for the Assessment and
+  Application of Technology (BPPT) [http://bppt.go.id]
+
+REFERENCES:
+
+  - FANS Information Services Ltd. Comprehensive ATN Manual Part I:
+    Introduction and Overview. January 9, 1999. http://www.fans-is.com.
+  - International Civil Aviation Organization. Annex 10 to the Convention on
+    International Civil Aviation, Aeronautical Telecommunications, Volume III,
+    Communication Systems, Part I - Digital Data Communication Systems, Second
+    Edition. July 2007.
+  - "What is Free Software?" http://www.gnu.org, accessed April 17, 2008.

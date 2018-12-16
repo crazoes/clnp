@@ -1,0 +1,49 @@
+	This is the credits-file of people that have contributed to
+	the Aeronautical Telecommunication Network (ATN) networking
+	suite project.  The list is sorted by status importance and
+	then by name. The list is also formatted to allow easy
+	grepping and beautification by scripts.
+
+	The fields are: status (S), name (N), email (E),
+	web-address (W), PGP key ID and fingerprint (P),
+	description (D), and snail-mail address (A).
+
+	The format of this list is taken from the CREDITS file of
+	Linux kernel 2.6.19.2.
+
+	Thanks,
+
+			Tadeus Prastowo
+----------
+
+S: Chief scientist
+N: Husni Fahmi, Ph.D.
+E: fahmi@inn.bppt.go.id
+D: Project leader
+
+S: Code administrator
+N: Tadeus Prastowo
+E: eus@member.fsf.org
+W: http://sourceforge.net/projects/atn
+D: Code reviewer, integrator, and maintainer
+
+S: 2007 developer
+N: Bunga Sugiarto
+E: bung_ola@yahoo.com
+D: CLNP defragmentation, checksumming (error checking), and error reporting
+
+S: 2007 developer
+N: Danny Laidi
+E: dannylaidi@yahoo.com
+D: CLNP input
+
+S: 2008 developer
+N: Tadeus Prastowo
+E: eus@member.fsf.org
+D: socket(PF_ATN, SOCK_RAW, 0) mechanism
+D: CLNP and PF_ATN socket integration
+
+S: 2008 tester
+N: Tjeuw Alvin Felix
+E: alvin.felix@googlemail.com
+D: CLNP input, defragmentation, checksumming, and error reporting black-box test
